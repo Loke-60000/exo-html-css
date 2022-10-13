@@ -1,0 +1,164 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--color2);
+}
+
+.nav {
+    padding-top: 5px;
+    font-size: 30px;
+    margin-left: 75%;
+    margin-right: 4%;
+    display: flex;
+    justify-content: end;
+    justify-content: space-between;
+
+}
+
+body {
+    min-height: 100vh;
+    margin: 0px;
+}
+
+header {
+    background: #deb887;
+    min-height: 60px;
+    left: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+:visited {
+    color: var(--color2);
+}
+:any-link {
+    color: var(--color2);}
+
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+/* every colors used on the website */
+*{
+    --color1: #ffebcd;
+    --color2: #491C1C;
+    --colorbg: #deb887;
+
+}
+
+/* background frame for img */
+.board {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10%;
+    height: 500px;
+
+}
+
+/* img frame*/
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    background-color: var(--colorbg);
+    border-radius: 25px;
+    margin-bottom: 10%;
+  }
+
+/* rounded borders for img */
+.pigeon {
+    border-radius: 25px;
+}
+.angrybird {
+    border-radius: 25px;
+}
+.penguin {
+    border-radius: 25px;
+}
+
+.img {
+    margin-top: 4%;
+    background-color: var(--color1);
+    height: 650px;
+    padding: 2%;
+    border-radius: 25px;
+    text-align: justify;
+    width: [width of img];
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 10px 5px 2px #b4956d
+}
+
+/* text */
+.description {
+    max-width: 300px;
+}
+
+footer {
+    background-color: var(--colorbg);
+    height: 300px;
+    text-decoration: none;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;  
+}
+
+.galerie {
+    background-color: var(--colorbg);
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 15%;
+}
+
+.formulaire {
+    display: flex;
+    background-color: var(--color1);
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 200%;
+}
+
+/* go on top of the page : scrolling ==> smooth */
+html {
+    scroll-behavior: smooth;
+  }
+
+
+/* footers position */
+.p1 {
+    top: 1100px;
+}
+
+.p2 {
+    top: 1400px;
+}
+
+.p3 {
+    top: 1000px;
+}
